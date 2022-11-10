@@ -22,6 +22,6 @@ while True:
 
     s.send(str.encode(f'{operacao.upper()}~{texto}')) # Constrói e envia a mensagem para o servidor
     resposta = bytes.decode(s.recv(1024))             # Aguarda a resposta do servidor
-    print(f'RESPOSTA: {resposta}\n')
+    print(f'\nRESPOSTA: {resposta}\n')
 
 s.close()
