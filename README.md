@@ -29,8 +29,9 @@ O script do servidor, basicamente, segue o seguinte fluxo:
 1. Aguarda e aceita a conexão de um cliente
 2. Aguarda o recebimento de uma mensagem
 3. Processa a mensagem recebida, através da função processaMensagem
-4. Envia para o cliente o texto resultante do processamento
-5. Volta ao passo 2 e repete até o cliente fechar a conexão
+4. Imprime a mensagem e o resultado do processamento 
+5. Envia para o cliente o texto resultante do processamento
+6. Volta ao passo 2 e repete até o cliente fechar a conexão
 
 #### client.py
 
