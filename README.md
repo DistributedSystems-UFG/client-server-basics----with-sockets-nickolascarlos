@@ -1,6 +1,6 @@
 # Serviço de Processamento de Texto
 
-{LINK PARA O VÍDEO DEMONSTRATIVO}
+Link para o vídeo de demonstração: https://youtu.be/mB0YWZ-t7DU
 
 ## Descrição do Sistema
 
